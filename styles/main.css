@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+:root {
+  --color-background: #f5f4f0;
+  --color-primary: #d4af37;
+  --color-secondary: #333333;
+  --color-accent: #e5c07b;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-secondary);
+  margin: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+nav {
+  background-color: var(--color-primary);
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+  background-color: #ffffff;
+  margin: 1rem auto;
+  max-width: 800px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: var(--color-primary);
+  border: none;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--color-secondary);
+}
+
